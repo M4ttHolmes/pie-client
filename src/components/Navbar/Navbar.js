@@ -7,8 +7,8 @@ const Navbar = (props) => {
     return(
         <div>
             <nav>
-                <img id="piePic" alt="pie picture" src={piePic} />
-                <Logout />
+                <img id="piePic" alt="pies" src={piePic} />
+                <Logout clearLocalStorage={props.clearLocalStorage} />
             </nav>
         </div>
     )

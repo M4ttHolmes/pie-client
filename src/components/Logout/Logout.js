@@ -5,7 +5,7 @@ import logout from "../../assets/logout.png";
 const Logout = (props) => {
     return(
         <div>
-            <img id="logout" alt="power button" src={logout} />
+            <img onClick={props.clearLocalStorage} id="logout" alt="power button" src={logout} />
         </div>
     )
 }
